@@ -1,10 +1,8 @@
 package edu.ucne.ocupaciones.data.dao
 
-import androidx.lifecycle.LiveData
 import androidx.room.*
 import edu.ucne.ocupaciones.Model.Occupation
 import kotlinx.coroutines.flow.Flow
-import javax.inject.Inject
 
 @Dao
 interface OccupationDao  {

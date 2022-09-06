@@ -1,18 +1,12 @@
 package edu.ucne.ocupaciones.ui.Occupation_list
 
-import android.content.Context
-import android.speech.tts.TextToSpeech
-
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-
 import edu.ucne.ocupaciones.Model.Occupation
 import edu.ucne.ocupaciones.respository.OccupationRepository
-
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.*
-
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
