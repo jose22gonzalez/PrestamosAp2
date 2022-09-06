@@ -1,7 +1,6 @@
 package edu.ucne.ocupaciones.respository
 
 import edu.ucne.ocupaciones.data.AppDataBase
-import edu.ucne.ocupaciones.data.dao.OccupationDao
 import edu.ucne.ocupaciones.Model.Occupation
 import javax.inject.Inject
 
