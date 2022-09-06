@@ -19,7 +19,6 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import edu.ucne.ocupaciones.Model.Occupation
 
 
-
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun OccupationListScreen(
