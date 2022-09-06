@@ -17,6 +17,7 @@ import edu.ucne.ocupaciones.ui.Ocupacion.OccupationScreen
 import edu.ucne.ocupaciones.util.Screen
 import dagger.hilt.android.AndroidEntryPoint
 
+
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
