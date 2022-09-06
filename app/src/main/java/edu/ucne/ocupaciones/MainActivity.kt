@@ -1,6 +1,5 @@
 package edu.ucne.ocupaciones
 
-
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -16,6 +15,7 @@ import edu.ucne.ocupaciones.ui.Occupation_list.OccupationListScreen
 import edu.ucne.ocupaciones.ui.Ocupacion.OccupationScreen
 import edu.ucne.ocupaciones.util.Screen
 import dagger.hilt.android.AndroidEntryPoint
+
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
