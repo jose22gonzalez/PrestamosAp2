@@ -24,21 +24,10 @@ class OccupationViewModel @Inject constructor(
     var salary by mutableStateOf("")
 
 
-    fun validarsalary(): Boolean{
-        var paso = false
-        paso = salary.toDouble() > 0
-        return paso
 
-    }
-
-    fun validardescription(): Boolean{
-        var paso = false
-        paso = description == null
-        return paso
-    }
 
     fun Save() {
-        if(validarsalary() && validardescription()){
+
             viewModelScope.launch {
                 respository.insertOccupation(
                     Occupation(
@@ -48,7 +37,7 @@ class OccupationViewModel @Inject constructor(
                     )
                 )
             }
-        }
+
 
     }
 }
